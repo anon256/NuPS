@@ -1,0 +1,31 @@
+build
+deps
+*.pb.*
+.*
+*core*
+docs/html
+docs/xml
+docs/latex
+docs/_build
+tests/test_*
+*.pyc
+*.d
+measurements/
+
+cmake-build-debug/
+CMakeFiles/
+recommonmark/
+
+# generated
+meta_pb2.py
+custom.mk
+
+# emacs c++
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+cscope.files
+cscope.out
+
+stats/
